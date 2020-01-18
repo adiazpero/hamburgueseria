@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Montserrat:400,700&display=swap');
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -10,7 +8,8 @@ body {
 }
 
 .container {
-    margin-left: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
@@ -47,11 +46,18 @@ h2 span {
 }
 
 section {
-    width: 90%;
+    width: 100%;
 }
 
 section article {
     width: 25%;
+    text-align: center;
+    margin: 2%;
+}
+
+section article figure {
+    margin: 0;
+    padding: 0;
 }
 
 section article .imagen {
@@ -65,15 +71,16 @@ section article .imagen img {
 
 section article .imagen .date {
     background: rgba(247, 45, 18, 0.7);
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     color: white;
     position: absolute;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.8em;
     padding: 5px;
     top: 0;
     left: 0;
+    font-weight: bold;
 }
 
 section article .texto {
