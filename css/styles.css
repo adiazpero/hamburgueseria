@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Montserrat:400,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin-left: 150px;
+}
+
+h2 {
+    color: black;
+    padding-top: 100px;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 span {
+    color: #fa573a;
+}
+
+.underline {
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.underline hr {
+    border-color: #fa573a;
+    position: absolute;
+    width: 100%;
+    top: -1px;
+}
+
+.underline span {
+    display: block;
+    text-align: center;
+    color: #fa573a;
+    font-weight: 700;
+}
+
+section {
+    width: 90%;
+}
+
+section article {
+    width: 25%;
+}
+
+section article .imagen {
+    position: relative;
+    margin-top: 50px;
+}
+
+section article .imagen img {
+    max-width: 100%;
+}
+
+section article .imagen .date {
+    background: rgba(247, 45, 18, 0.7);
+    width: 50px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    top: 0;
+    left: 0;
+}
+
+section article .texto {
+    text-align: left;
+}
+
+section article .texto h3 {
+    color: black;
+    margin-top: 10px;
+}
+
+section article .texto h4 {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section article .texto p {
+    margin-bottom: 20px;
+}
+
+section article .texto .readmore a {
+    text-decoration: none;
+    color: red;
+    margin-top: 10px;
+}
