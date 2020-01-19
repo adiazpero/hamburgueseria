@@ -9,12 +9,14 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 h2 {
     color: black;
     padding-top: 100px;
+    margin-bottom: 0;
     font-size: 2em;
     text-align: center;
     font-family: 'Pacifico', cursive;
@@ -26,16 +28,15 @@ h2 span {
 
 .underline {
     position: relative;
-    width: 200px;
+    width: 100px;
     margin: 0 auto;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .underline hr {
     border-color: #fa573a;
     position: absolute;
     width: 100%;
-    top: -1px;
 }
 
 .underline span {
@@ -52,7 +53,7 @@ section {
 section article {
     width: 25%;
     text-align: center;
-    margin: 2%;
+    margin: 1%;
 }
 
 section article figure {
@@ -106,4 +107,11 @@ section article .texto .readmore a {
     text-decoration: none;
     color: red;
     margin-top: 10px;
+    font-weight: bold;
+}
+
+@media(max-width:62.68em) {
+    section article {
+        width: 45%;
+    }
 }
