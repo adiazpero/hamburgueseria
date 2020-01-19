@@ -84,8 +84,8 @@ h2 span {
 
 .section1 article ul li:hover {
     background-color: red;
-    max-width: 240px;
-    height: 40px;
+    max-width: 100%;
+    height: 30px;
     border-radius: 3px;
 }
 
@@ -133,6 +133,10 @@ h2 span {
     font-weight: bold;
 }
 
+footer {
+    display: none;
+}
+
 @media(max-width:62.68em) {
     .container {
         margin: 0px 45px;
@@ -171,5 +175,13 @@ h2 span {
         font-size: 0.7em;
         margin-top: 0px;
         margin-bottom: 20px;
+    }
+    footer {
+        display: block;
+        text-align: right;
+    }
+    footer a {
+        color: red;
+        font-size: 1.5em;
     }
 }
